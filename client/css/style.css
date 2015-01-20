@@ -20,17 +20,7 @@ button {
 }
 
 body {
-	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	line-height: 1.4em;
 	background-color: #666;
-	color: #4d4d4d;
-	width: 550px;
-	margin: 0 auto;
-	-webkit-font-smoothing: antialiased;
-	-moz-font-smoothing: antialiased;
-	-ms-font-smoothing: antialiased;
-	-o-font-smoothing: antialiased;
-	font-smoothing: antialiased;
 }
 
 button,
@@ -38,10 +28,12 @@ input[type="checkbox"] {
   outline: none;
 }
 
+
+
 #todoapp {
 	background: #fff;
 	background: rgba(255, 255, 255, 0.9);
-	margin: 130px 0 40px 0;
+	margin: 0 0 40px 0;
 	border: 1px solid #ccc;
 	position: relative;
 	border-top-left-radius: 2px;
@@ -79,7 +71,6 @@ input[type="checkbox"] {
 }
 
 #header {
-	padding-top: 15px;
 	border-radius: inherit;
 }
 
@@ -90,9 +81,9 @@ input[type="checkbox"] {
 	position: relative;
 	margin: 0;
 	width: 100%;
-	font-size: 24px;
+	font-size: 20px;
 	font-family: inherit;
-	line-height: 1.4em;
+	line-height: 1.2em;
 	border: 0;
 	outline: none;
 	color: inherit;
@@ -133,8 +124,8 @@ input[type="checkbox"] {
 
 #todo-list li {
 	position: relative;
-	font-size: 24px;
-	border-bottom: 1px dotted #ccc;
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
 }
 
 #todo-list li:last-child {
@@ -161,10 +152,10 @@ input[type="checkbox"] {
 #todo-list li label {
 	white-space: pre;
 	word-break: break-word;
-	padding: 15px 60px 15px 15px;
-	margin-left: 45px;
+	padding: 15px 40px 15px 15px;
+	margin-left: 25px;
 	display: block;
-	line-height: 1.2;
+	line-height: 1.1;
 	-webkit-transition: color 0.4s;
 	transition: color 0.4s;
 }
@@ -208,3 +199,31 @@ input[type="checkbox"] {
 	margin-bottom: -1px;
 }
 
+.todolist {
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	color: #4d4d4d;
+	background-color: #eee;
+	width: 300px;
+	height: 100vh;
+	float: left;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+.challengeData {
+	margin-left: 400px;
+	margin-top: 30px;
+	width: 600px;
+	height: 600px;
+	background-color: #FFF;	
+	padding: 40px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2),
+				0 25px 50px 0 rgba(0, 0, 0, 0.35);
+}
